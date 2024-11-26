@@ -12,9 +12,14 @@ This project evaluates the performance of different ML models for sentiment anal
 | 	[amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews)	  | 	86,932	 | 	9,660	  |
 
 
-### Model performance (accuracy)
+### Models
 
-The models are fine-tuned using [amazon-shoe-reviews](https://huggingface.co/datasets/gyoungjr/amazon-shoe-reviews) on pretrained models.
+* training: fine-tune pre-trained using the training set from a given dataset
+* testing: on the test set
+
+### Models performance (accuracy)
+
+- The models are trained using [amazon-shoe-reviews](https://huggingface.co/datasets/gyoungjr/amazon-shoe-reviews)
 
 |                                      	Model	                                      | 	[amazon-shoe-reviews](https://huggingface.co/datasets/gyoungjr/amazon-shoe-reviews)	 | 	[amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews)	 | 
 |:---------------------------------------------------------------------------------:|:--------:|:---------------------------------------------------------------------------------------------------:| 
@@ -24,7 +29,7 @@ The models are fine-tuned using [amazon-shoe-reviews](https://huggingface.co/dat
 |  [e5-base-v2](https://huggingface.co/intfloat/e5-base-v2)    		  | 		 |                                                 		                                                  |
 
 
-The models are fine-tuned using [amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews) on pretrained models.
+-  The models are trained using [amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews)
 
 |                                      	Model	                                      | 	[amazon-shoe-reviews](https://huggingface.co/datasets/gyoungjr/amazon-shoe-reviews)	 | 	[amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews)	 | 
 |:---------------------------------------------------------------------------------:|:--------:|:---------------------------------------------------------------------------------------------------:| 
