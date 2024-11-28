@@ -4,7 +4,7 @@ This project evaluates the performance of different ML models for sentiment anal
 
 ### Dataset
 
-[amazon-shoe-reviews](https://huggingface.co/datasets/gyoungjr/amazon-shoe-reviews) and [amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews) are two public datasets on Hugging Face for sentiment analysis. Both datasets include user product reviews on Amazon.
+[amazon-shoe-reviews](https://huggingface.co/datasets/gyoungjr/amazon-shoe-reviews) and [amazon-electronics-reviews](https://huggingface.co/datasets/gyoungjr/amazon-electronics-reviews) are two public datasets on Hugging Face for sentiment analysis. Both datasets include user product reviews on Amazon. In both datasets, each user reivew has a corresponding ranking (ranging from 0 to 4) on the product. 
 
 | 	Dataset	 | 	#train	 | 	#test	  | 
 |:---------:|:--------:|:--------:| 
